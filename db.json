@@ -1,56 +1,241 @@
 {
-	"sneakers":[
-		{ "id":1, "productName": "Air Jordan 1 Off-White UNC", "description": "product descrition whatever...", "imageUrl": "/products/1.png"},
-		{ "id":2, "productName": "Air Jordan 4 Infrared", "description": "product descrition whatever...", "imageUrl": "/products/2.png"},
-		{ "id":3, "productName": "Travis Scott Mocha", "description": "product descrition whatever...", "imageUrl": "/products/3.png"},
-		{ "id":4, "productName": "Air Jordan Low New Emerald", "description": "product descrition whatever...", "imageUrl": "/products/4.png"},
-		{ "id":5, "productName": "Air Jordan 4 Lightning", "description": "product descrition whatever...", "imageUrl": "/products/5.png"},
-		{ "id":6, "productName": "Nike Dunk High Ambush Deep Royal Blue", "description": "product descrition whatever...", "imageUrl": "/products/6.png"},
-		{ "id":7, "productName": "Nike Dunk High Ambush Deep Royal Blue", "description": "product descrition whatever...", "imageUrl": "/products/7.png"},
-		{ "id":8, "productName": "Nike Dunk High Ambush Deep Royal Blue", "description": "product descrition whatever...", "imageUrl": "/products/8.png"}
+	"products":[
+		{ 
+			"id": 1, 
+			"productName": "Air Jordan 1 Off-White UNC", 
+			"specifications":{
+				"authentic": "100% CERTIFIED",
+				"condition": "BRAND NEW",
+				"productType": "SNEAKERS",
+				"silhouette":"Air JORDAN 1",
+				"releaseYear":"2018",
+				"color": "BLUE",
+				"brand": "AIR JORDAN",
+				"details": "WHITE/DARK POWDER BLUE-CONE",
+			},
+			"productInfo": {
+				"size": [5,6,7,8,9,10,11,12],
+				"colors": ["blue", "black", "white", "green", "red", "yellow"],
+				"lowAsk": "0.0",
+				"highAsk": "0.0",
+				"currency": "$",
+			},
+			"description": "Inspired by Michael Jordan’s alma mater, the Off-White x Air Jordan 1 Retro High OG ‘UNC’ carries a classic two-tone composition, filtered through Virgil Abloh’s unique design prism. The process involves taking a white leather base with dark powder blue overlays and adding embellishments that convey an expressive, handmade quality. They include detached Wings, a floating Swoosh, and lines of text on the medial-side quarter panel delineating the taxonomy of the shoe.", 
+			"imageUrl": "/products/1.png",
+		},
+		{ 
+			"id": 2, 
+			"productName": "Air Jordan 4 Infrared", 
+			"specifications":{
+				"authentic": "100% CERTIFIED",
+				"condition": "BRAND NEW",
+				"productType": "SNEAKERS",
+				"silhouette":"AIR JORDAN 4",
+				"releaseYear":"2022",
+				"color": "GREY/RED",
+				"brand": "AIR JORDAN",
+				"details": "INFRARED",
+			},
+			"productInfo": {
+				"size": [5,6,7,8,9,10,11,12],
+				"colors": ["blue", "black", "white", "green", "red", "yellow"],
+				"lowAsk": "0.0",
+				"highAsk": "0.0",
+				"currency": "$",
+			},
+			"description": "The Air Jordan 4 Infrared features a tonal grey Durabuck upper with black TPU mesh inserts, tech straps, and heel tabs. Hits of Infrared on the lacing system and woven Jordan Flight tongue label add a sharp contrast to the neutral-toned base. From there, a white sole with visible Air units completes the design.", 
+			"imageUrl": "/products/2.png",
+		},
+		{ 
+			"id": 3, 
+			"productName": "Travis Scott x Air Jordan 1 Retro High OG 'Mocha'
+			", 
+			"specifications":{
+				"authentic": "100% CERTIFIED",
+				"condition": "BRAND NEW",
+				"productType": "SNEAKERS",
+				"silhouette":"AIR JORDAN 1",
+				"releaseYear":"2019",
+				"color": "BROWN",
+				"brand": "AIR JORDAN",
+				"details": "SAIL/DARK MOCHA-UNIVERSITY RED-BLACK",
+			},
+			"productInfo": {
+				"size": [5,6,7,8,9,10,11,12],
+				"colors": ["blue", "black", "white", "green", "red", "yellow"],
+				"lowAsk": "0.0",
+				"highAsk": "0.0",
+				"currency": "$",
+			},
+			"description": "The Travis Scott x Air Jordan 1 Retro High features a new look on the iconic silhouette, thanks to an oversized backward-facing Swoosh on the lateral side. A traditionally oriented Swoosh graces the medial side of the upper, which is built with a blend of white leather and brown suede. Additional unique details include a double-layer construction on the collar and Scott’s crudely drawn face logo embossed on the heel.", 
+			"imageUrl": "/products/3.png",
+		},
+		{ 
+			"id": 4, 
+			"productName": "Air Jordan Low New Emerald", 
+			"specifications":{
+				"authentic": "100% CERTIFIED",
+				"condition": "BRAND NEW",
+				"productType": "SNEAKERS",
+				"silhouette":"Air JORDAN 1 LOW",
+				"releaseYear":"2022",
+				"color": "WHITE",
+				"brand": "AIR JORDAN",
+				"details": "NEW EMERALD/WHITE-LIGHT STEEL GREY",
+			},
+			"productInfo": {
+				"size": [5,6,7,8,9,10,11,12],
+				"colors": ["blue", "black", "white", "green", "red", "yellow"],
+				"lowAsk": "0.0",
+				"highAsk": "0.0",
+				"currency": "$",
+			},
+			"description": "This pair is dressed in a New Emerald, White, and Light Steel Grey color scheme. This offering of the low-top Air Jordan 1 features a White leather base with Emerald Green suede overlays and Grey Swooshes. A White midsole atop a Grey rubber outsole completes the design.", 
+			"imageUrl": "/products/4.png",
+		},
+		{ 
+			"id": 5, 
+			"productName": "Air Jordan 4 Lightning", 
+			"specifications":{
+				"authentic": "100% CERTIFIED",
+				"condition": "BRAND NEW",
+				"productType": "SNEAKERS",
+				"silhouette":"AIR JORDAN 4",
+				"releaseYear":"2021",
+				"color": "YELLOW",
+				"brand": "AIR JORDAN",
+				"details": "TOUR YELLOW/MULTI-COLOR/MULTI-COLOR/DARK BLUE GREY",
+			},
+			"productInfo": {
+				"size": [5,6,7,8,9,10,11,12],
+				"colors": ["blue", "black", "white", "green", "red", "yellow"],
+				"lowAsk": "0.0",
+				"highAsk": "0.0",
+				"currency": "$",
+			},
+			"description": "The 2021 edition of the Air Jordan 4 Retro ‘Lightning’ resurrects a highly coveted colorway that originally launched in 2006 alongside an accompanying ‘Thunder’ colorway, both of which were inspired by Michael Jordan’s Motorsports team. A bright yellow hue floods the nubuck upper, contrasted by black netting and dark grey structural wings. Matching grey accents land on the woven tongue tag, interior tongue and Jumpman branding at the heel. A white PU midsole, enhanced with visible Air sole cushioning, rides on a dark grey herringbone rubber outsole.", 
+			"imageUrl": "/products/5.png",
+		},
+		{ 
+			"id": 6, 
+			"productName": "OFF WHITE x NIKE DUNK LOW LOT 26", 
+			"specifications":{
+				"authentic": "100% CERTIFIED",
+				"condition": "BRAND NEW",
+				"productType": "SNEAKERS",
+				"silhouette":"DUNK LOW",
+				"releaseYear":"2020",
+				"color": "WHITE",
+				"brand": "NIKE",
+				"details": "WHIT/GREY",
+			},
+			"productInfo": {
+				"size": [5,6,7,8,9,10,11,12],
+				"colors": ["blue", "black", "white", "green", "red", "yellow"],
+				"lowAsk": "0.0",
+				"highAsk": "0.0",
+				"currency": "$",
+			},
+			"description": "The Nike Dunk Low 'Black White' treats the retro model to an essential two-tone color scheme that accentuates the sneaker's clean lines, developed by designer Peter Moore and responsible for the shoe's easy transition from the hardwood to the street. The leather upper combines a white base with contrasting black overlays that wrap around the toe and heel. On both the woven tongue tag and heel tab, Nike branding in white stands out in relief against a black backdrop.", 
+			"imageUrl": "/products/6.png",
+		},
+		{ 
+			"id": 7, 
+			"productName": "Nike Dunk High Ambush Deep Royal Blue", 
+			"specifications":{
+				"authentic": "100% CERTIFIED",
+				"condition": "BRAND NEW",
+				"productType": "SNEAKERS",
+				"silhouette":"DUNK",
+				"releaseYear":"2021",
+				"color": "BLUE",
+				"brand": "NIKE",
+				"details": "DEEP ROYAL BLUE/WHITE/PALE IVORY/BLACK",
+			},
+			"productInfo": {
+				"size": [5,6,7,8,9,10,11,12],
+				"colors": ["blue", "black", "white", "green", "red", "yellow"],
+				"lowAsk": "0.0",
+				"highAsk": "0.0",
+				"currency": "$",
+			},
+			"description": "Designed in partnership with the Tokyo-based brand helmed by Yoon Ahn, the AMBUSH x Nike Dunk High ‘Deep Royal’ delivers a stylized take on the vintage silhouette. The all-leather upper combines a crisp white base with contrasting royal blue overlays and an oversized black Swoosh inspired by motorcycle tailpipes, featuring a tail that extends past the heel. AMBUSH branding lands on an external TPU heel counter and the woven tag that adorns an exposed foam tongue. The high-top rides on a standard rubber cupsole, highlighted by white sidewalls and a royal blue outsole.", 
+			"imageUrl": "/products/7.png",
+		},
+		{ 
+			"id": 8, 
+			"productName": "UNION LA x AIR JORDAN 4 OFF NOIR", 
+			"specifications":{
+				"authentic": "100% CERTIFIED",
+				"condition": "BRAND NEW",
+				"productType": "SNEAKERS",
+				"silhouette":"AIR JORDAN 4",
+				"releaseYear":"2020",
+				"color": "BLUE",
+				"brand": "AIR JORDAN",
+				"details": "OFF NOIR/BRIGADE BLUE/DARK SMOKE GREY/LIGHT FUSION RED",
+			},
+			"productInfo": {
+				"size": [5,6,7,8,9,10,11,12],
+				"colors": ["blue", "black", "white", "green", "red", "yellow"],
+				"lowAsk": "0.0",
+				"highAsk": "0.0",
+				"currency": "$",
+			},
+			"description": "The Union LA x Air Jordan 4 Retro ‘Off Noir’ represents the follow-up effort to the duo’s highly coveted Air Jordan 1 collaboration from 2018. The updated design features a black suede upper with matching black mesh on the toe box and blue mesh around the collar. The semi-translucent structural wings are attached to molded red eyelets, matching the woven Air Jordan tag atop the padded tongue and Nike Air branding on the heel. The TPU wings are filled in, reminiscent of an original Tinker Hatfield sketch of the AJ4, while the AIR JORDAN tag usually found on the inside of the tongue conveys a unique look, like someone folded the tongue over to expose the inside tag. Finally, a 'UN/LA' tag on the side panel shows the Union heritage and a yellowed midsole conveys a vintage aesthetic.", 
+			"imageUrl": "/products/9.png",
+		}
 	],
-	"comments": [
+	"comments":[
 		{
 			"id": 1,
 			"username": "lee robinson",
 			"comment": "These are my fav!",
-			"userUrl": "https://github.com/leerob.png"
+			"userUrl": "https://github.com/leerob.png",
+			"commentDt": "17 Nov 2022 at 7:20 PM"
+
 		},
 		{
 			"id": 2,
 			"username": "VPM",
 			"comment": "I have these in size UK10, DM",
-			"userUrl": "https://github.com/nandakishormpai.png"
+			"userUrl": "https://github.com/nandakishormpai.png",
+			"commentDt": "25 Oct 2022 at 8:23 PM"
 		},
 		{
 			"id": 3,
 			"username":"KPai",
 			"comment": "Doep Shoes",
-			"userUrl": "https://github.com/k8pai.png"
+			"userUrl": "https://github.com/k8pai.png",
+			"commentDt": "15 Oct 2022 at 2:02 AM"
 		},
 		{
 			"id": 4,
 			"username": "Discord",
 			"comment": "I want these so bad!",
-			"userUrl": "https://github.com/discord.png"
+			"userUrl": "https://github.com/discord.png",
+			"commentDt": "30 Sep 2022 at 3:29 AM"
 		},
 		{
 			"id": 5,
 			"username": "Ambuj",
 			"comment": "I sold em for good profits via SW Marketplace.",
-			"userUrl": "https://github.com/niranjanneeru.png"
+			"userUrl": "https://github.com/niranjanneeru.png",
+			"commentDt": "17 Sep 2022 at 12:26 noon"
 		},
 		{
 			"id": 6,
 			"username": "srishti",
 			"comment": "I sold my Y00Ts, with that money gonna buy this oe. Dope  hat they accept crypto!",
-			"userUrl": "https://github.com/srishti.png"
+			"userUrl": "https://github.com/srishti.png",
+			"commentDt": "9 Sep 2022 at 7:11 PM"
 		},
 		{
 			"id": 7,
 			"username": "setuk",
 			"comment": "I did hit one pair from Nike SNKRS drop.",
-			"userUrl": "https://github.com/Deep0LET.png"
+			"userUrl": "https://github.com/Deep0LET.png",
+			"commentDt": "27 Aug 2021 at 10:11 PM"
 		}
 	]
 }
