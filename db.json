@@ -8,5 +8,49 @@
 		{ "id":6, "productName": "Nike Dunk High Ambush Deep Royal Blue", "description": "product descrition whatever...", "imageUrl": "/products/6.png"},
 		{ "id":7, "productName": "Nike Dunk High Ambush Deep Royal Blue", "description": "product descrition whatever...", "imageUrl": "/products/7.png"},
 		{ "id":8, "productName": "Nike Dunk High Ambush Deep Royal Blue", "description": "product descrition whatever...", "imageUrl": "/products/8.png"}
+	],
+	"comments": [
+		{
+			"id": 1,
+			"username": "lee robinson",
+			"comment": "These are my fav!",
+			"userUrl": "https://github.com/leerob.png"
+		},
+		{
+			"id": 2,
+			"username": "VPM",
+			"comment": "I have these in size UK10, DM",
+			"userUrl": "https://github.com/nandakishormpai.png"
+		},
+		{
+			"id": 3,
+			"username":"KPai",
+			"comment": "Doep Shoes",
+			"userUrl": "https://github.com/k8pai.png"
+		},
+		{
+			"id": 4,
+			"username": "Discord",
+			"comment": "I want these so bad!",
+			"userUrl": "https://github.com/discord.png"
+		},
+		{
+			"id": 5,
+			"username": "Ambuj",
+			"comment": "I sold em for good profits via SW Marketplace.",
+			"userUrl": "https://github.com/niranjanneeru.png"
+		},
+		{
+			"id": 6,
+			"username": "srishti",
+			"comment": "I sold my Y00Ts, with that money gonna buy this oe. Dope  hat they accept crypto!",
+			"userUrl": "https://github.com/srishti.png"
+		},
+		{
+			"id": 7,
+			"username": "setuk",
+			"comment": "I did hit one pair from Nike SNKRS drop.",
+			"userUrl": "https://github.com/Deep0LET.png"
+		}
 	]
 }
