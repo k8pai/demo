@@ -87,6 +87,17 @@
 			"details": "OFF NOIR/BRIGADE BLUE/DARK SMOKE GREY/LIGHT FUSION RED",
 			"description": "The Union LA x Air Jordan 4 Retro 'Off Noir' represents the follow-up effort to the duo's highly coveted Air Jordan 1 collaboration from 2018.", 
 			"imageUrl": "/products/8.png"
+		},
+		{ 
+			"id": 9,
+			"productName": "AIR JORDAN 1 YELLOW TOE (TAXI)",
+			"silhouette":"AIR JORDAN 1",
+			"releaseYear":"2022",
+			"color": "Yellow",
+			"brand": "AIR JORDAN",
+			"details": "BLACK/TAXI-WHITE",
+			"description": "No need to call for a ride, the AJ1 'Taxi' will get you where you need to go. Donning Taxi yellow on the toe, heel and outsole against crisp black overlays, this classic take on the shoe that launched MJ's signature line looks right at home on your city's streets. Premium leather, the woven tongue label and a debossed Wings logo seal the deal.", 
+			"imageUrl": "/products/9.png"
 		}
 	],
 	"comments":[
